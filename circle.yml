@@ -6,7 +6,7 @@ dependencies:
   override:
     - pip install --upgrade pip wheel  # pip >= 8.0 needed to be compatible with "manylinux" wheels, used by numpy >= 1.11
     - pip install twine
-    - pip install --editable git+https://github.com/openfisca/country_template.git@dated-variable-#371#egg=OpenFisca-Country-Template
+    - pip install --editable git+https://github.com/openfisca/country-template.git@dated-variable-#371#egg=OpenFisca-Country-Template
     - pip install --editable git+https://github.com/openfisca/openfisca-extension-template.git@dated-variable-#371#egg=OpenFisca-Extension-Template
     - pip install .[test] --upgrade
 test:
